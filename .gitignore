@@ -1,0 +1,35 @@
+# Elixir
+/.elixirc
+/.mix/
+deps/
+_build/
+mix.lock
+
+# Phoenix
+/assets/node_modules/
+priv/static/
+priv/uploads/
+
+# IDEs
+# Visual Studio Code
+.vscode/
+# IntelliJ IDEA
+.idea/
+
+# MacOS
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Misc
+*.log
+*.tmp
+*.pid
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+docker-compose*.yml
+db_data/
